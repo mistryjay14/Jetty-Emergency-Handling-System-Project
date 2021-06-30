@@ -1,0 +1,41 @@
+body {
+   background-color: white;
+   color: black;
+}
+
+
+.button {
+  font: bold 15px Arial;
+  text-decoration: none;
+  background-color: #EEEEEE;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.header-img {
+    height: 15%;
+    width: 15%;
+}
+
+header {
+    background-color: yellow;
+    width:  100%;
+}
+
+header h1 {
+    display: inline;
+}
+
+.footer {
+  position: static;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  background-color: lightseagreen;
+  color: white;
+  text-align: center;
+}
