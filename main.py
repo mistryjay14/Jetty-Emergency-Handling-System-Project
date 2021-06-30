@@ -55,10 +55,10 @@ def index():
 			'message': 'Jetty ESD activated.',
 			'language': 'english',
 			'route': 'p',
-			'numbers': '6354835893,9662492456,9727636359,9111733784'	
+			'numbers': '9999999999' #for multiple nos. separate the nos. by comma and no space in between	
 		}
 		headers = {
-			'authorization': 'UHRoNOu8APcmkiKeZXzwg3tsY59Th4DEJGpy1dnFSqb7CaMvLlEVkAmb8F0iu4qj3QGPrLnRSeyIs659',
+			'authorization': 'API key',
 			'Content-Type': "application/x-www-form-urlencoded",
 			'Cache-Control': "no-cache"
 		}
@@ -94,10 +94,10 @@ def action(deviceName, action):
 			'message': 'Terminal ESD activated.',
 			'language': 'english',
 			'route': 'p',
-			'numbers': '6354835893,9662492456,9727636359,9111733784'	
+			'numbers': '9999999999' #for multiple nos. separate the nos. by comma and no space in between		
 		}
 		headers = {
-			'authorization': 'UHRoNOu8APcmkiKeZXzwg3tsY59Th4DEJGpy1dnFSqb7CaMvLlEVkAmb8F0iu4qj3QGPrLnRSeyIs659',
+			'authorization': 'API key',
 			'Content-Type': "application/x-www-form-urlencoded",
 			'Cache-Control': "no-cache"
 		}
