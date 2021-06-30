@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+   <head>
+      <title>Jetty Emergency</title>
+      <link rel="stylesheet" href="../static/style.css/">
+   </head>
+
+   <body>
+      <header>
+         <img align="right" src="../static/images/logo.jpg" width="115" height="100">   
+      <center><h1>Indian Oil Corporation | IOCL Kandla</h1></center>
+      <center><h2>Summer Internship Project</h2></center>
+      </header>
+
+      <h1>ESD handling and Control</h1>
+      <h2>ESD Status </h2>
+      <h3>Jetty ESD:  {{ button1 }}</h3>
+      <h3>
+         Terminal ESD:
+         <a href="/alarm/on" class="button">TURN ON</a>  
+         <a href="/alarm/off"class="button">TURN OFF</a>
+      </h3>
+      <br>
+      <h2> Output Status </h2>
+      <h3> Alarm: {{ alarm }}</h3>
+      <h3> Siren:  {{ siren }}</h3>
+      <h3> Relay:  {{relay}}</h3>
+      <br>
+
+
+      <h2> Control </h2>
+         <h3>
+         Relay Control:
+         <a href="/relay/on" class="button">TURN ON</a>  
+         <a href="/relay/off"class="button">TURN OFF</a>
+      </h3>
+      <div class="footer">
+         <p>© Copyright 2021 | Internship Project at IOCL Kandla</p>
+         <p>Guidance: Apoorv Mishra | Created by: Kaushal | Prit | Jay</p>
+      </div>
+   </body>
+</html>
